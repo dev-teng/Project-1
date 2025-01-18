@@ -101,51 +101,49 @@
 
     <!--Footer-->
     <footer class="shadow-lg">
-      <div class="row p-5">
-        <div class="col-md-2">
-          <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="#"><h5 class="pb-3">About Us</h5></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Our Company</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Our Coffee</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">About Starbucks</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Starbucks Archive</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Investor Relations</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Customer Service</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Contact us</h6></a>
+      <div class="container">
+        <!-- Accordion for smaller screens -->
+        <div class="accordion d-lg-none" id="footerAccordion">
+          <!-- About Us -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="aboutUsHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#aboutUsCollapse" aria-expanded="true" aria-controls="aboutUsCollapse">
+                About Us
+              </button>
+            </h2>
+            <div id="aboutUsCollapse" class="accordion-collapse collapse show" aria-labelledby="aboutUsHeading" data-bs-parent="#footerAccordion">
+              <div class="accordion-body">
+                <a href="#" class="d-block text-secondary">Our Company</a>
+                <a href="#" class="d-block text-secondary">Our Coffee</a>
+                <a href="#" class="d-block text-secondary">About Starbucks</a>
+                <a href="#" class="d-block text-secondary">Starbucks Archive</a>
+                <a href="#" class="d-block text-secondary">Investor Relations</a>
+                <a href="#" class="d-block text-secondary">Customer Service</a>
+                <a href="#" class="d-block text-secondary">Contact us</a>
+              </div>
+            </div>
+          </div>
+          <!-- Careers -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="careersHeading">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#careersCollapse" aria-expanded="false" aria-controls="careersCollapse">
+                Careers
+              </button>
+            </h2>
+            <div id="careersCollapse" class="accordion-collapse collapse" aria-labelledby="careersHeading" data-bs-parent="#footerAccordion">
+              <div class="accordion-body">
+                <a href="#" class="d-block text-secondary">Culture and Values</a>
+                <a href="#" class="d-block text-secondary">Inclusion, Diversity, & Belonging</a>
+                <a href="#" class="d-block text-secondary">College Achievement Plan</a>
+                <a href="#" class="d-block text-secondary">Alumni Community</a>
+                <a href="#" class="d-block text-secondary">PH Careers</a>
+                <a href="#" class="d-block text-secondary">International Careers</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more accordion items similarly -->
         </div>
-        <div class="col-md-2">
-          <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="#"><h5 class="pb-3">Careers</h5></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Culture and Values</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Inclusion, Diversity, & Belonging</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">College Achievement Plan</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Alumni Community</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">PH careers</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">International Careers</h6></a>
-        </div>
-        <div class="col-md-2">
-          <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="#"><h5 class="pb-3">Social Impact</h5></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Communities</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Starbucks Foundation</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Sustainability</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Environment and Social Impact Reporting</h6></a>
-        </div>
-        <div class="col-md-2">
-          <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="#"><h5 class="pb-3">For Business Partners</h5></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Landlord Support Center</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Suppliers</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Corporate Gift Card Sales</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Office and FoodService Coffee</h6></a>
-        </div>
-        <div class="col-md-2">
-          <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="#"><h5 class="pb-3">Order and Pick up</h5></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Order on the App</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Order on the Web</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Delivery</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Order and Pick up Options</h6></a>
-          <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"><h6 class="text-secondary lh-lg">Explore and Find Coffee for home</h6></a>
-        </div>
-        <div class="col-md-2">
-
-        </div>
+  
         
       </div>
     </footer>
