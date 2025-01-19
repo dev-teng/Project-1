@@ -2,3 +2,8 @@
   color: black !important;
   transition: 0.3s ease;
 }
+
+.nav-hover:hover{
+  color: rgb(10, 106, 10) !important;
+  transition: 0.3s ease;
+}
