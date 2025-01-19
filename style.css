@@ -7,3 +7,7 @@
   color: rgb(10, 106, 10) !important;
   transition: 0.3s ease;
 }
+
+.tab-pane {
+  transition: 0.3s ease-in-out;
+}
